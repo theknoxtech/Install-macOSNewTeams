@@ -9,7 +9,7 @@ if [ ! -d "/Applications/Microsoft Teams.app" ]; then
 
       echo "Installing Microsoft Teams"
 
-      installer -pkg /tmp/MicrosoftTeams.pkg /Applications
+      installer -pkg /tmp/MicrosoftTeams.pkg -target /Applications
 
       echo "SUCCESS: Microsoft Teams has been installed"
 
